@@ -6,10 +6,10 @@ import random
 from pathlib import Path
 
 PARTNERS = {
-    "Broker Alpha": ["UTP", "CTA", "OPRA"],
-    "Broker Beta": ["UTP", "CTA"],
-    "Wealth Gamma": ["CTA", "Cboe"],
-    "Crypto Delta": ["UTP"],
+    "Example Broker A": ["UTP", "CTA", "OPRA"],
+    "Example Broker B": ["UTP", "CTA"],
+    "Example Broker C": ["CTA", "Cboe"],
+    "Example Broker D": ["UTP"],
 }
 
 
@@ -18,7 +18,7 @@ def generate(path=Path(__file__).parent / "data" / "entitlements.csv"):
     rows = []
     for partner, feeds in PARTNERS.items():
         for i in range(random.randint(40, 90)):
-            user_id = f"{partner.split()[1][:2].upper()}{i:03d}"
+            user_id = f"{partner[-1]}{i:03d}"
             professional = random.random() < 0.15
             start = dt.date(2026, 10, 1) + dt.timedelta(days=random.randint(0, 40))
             end = start + dt.timedelta(days=random.randint(5, 90))
