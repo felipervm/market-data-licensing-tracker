@@ -2,7 +2,7 @@
 
 A small tool I built to understand the operations side of market data: usage reporting deadlines, license renewals and partner authorizations.
 
-**Independent case study.** The partners, licenses and users are synthetic. The reporting rules are short summaries of public exchange policies (links in `data/reporting_rules.csv`). Always confirm them against the current documents. Rules checked in November 2026 (UTP Data Policies published October 2026; the NYSE/CTA rule comes from the CTA Exhibit A, which has no date).
+**Independent case study.** The deadlines are real exchange rules applied to the real calendar. The partners ("Example Broker A" to "D"), licenses and users are made up, just to show how the alerts work. The reporting rules are short summaries of public exchange policies (links in `data/reporting_rules.csv`). Always confirm them against the current documents. Rules checked in November 2026 (UTP Data Policies published October 2026; the NYSE/CTA rule comes from the CTA Exhibit A, which has no date).
 
 ## What it does
 
