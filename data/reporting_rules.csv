@@ -1,0 +1,7 @@
+source,report,frequency,due_rule,grace,notes,policy_url
+UTP Plan (Nasdaq-listed SIP),Monthly detailed usage report,monthly,day15_next_month,next_business_day,"Weekend/holiday due date rolls to next business day; revisions limited to 2 months",https://www.utpplan.com/DOC/datapolicies.pdf
+Nasdaq (proprietary),Monthly usage report (NORA),monthly,day15_next_month,none,"Nasdaq GDA: not considered late until 45 days after due date",https://www.nasdaqtrader.com/content/AdministrationSupport/AgreementsData/globaldataagreement4.5.pdf
+Cboe U.S. Equities/Options,Data Recipient Declarations,monthly,day15_next_month,none,"Failure to report within 60 days may lead to suspension",https://cdn.cboe.com/resources/membership/Market_Data_Policies.pdf
+NYSE / CTA,Monthly inventory report,monthly,second_to_last_business_day_same_month,none,"Due BEFORE the month ends, unlike the others",https://www.nyse.com/publicdocs/ctaplan/notifications/trader-update/Exhibit%20A%20-%20CTA%20-%20Internal%20and%20External%20Distribution.pdf
+NYSE (non-display),Annual Non-Display Use Declaration,annual,jan31,none,"No monthly reporting for non-display; annual declaration plus update on any change",https://www.nyse.com/publicdocs/nyse/data/Non-Display_Use_Policy.pdf
+OPRA,Monthly subscriber/usage report,monthly,confirm_in_agreement,none,"Monthly reporting confirmed; exact day set by OPRA agreement - verify",https://cdn.opraplan.com/documents/OPRA_Usage_Based_Fee_Policy.pdf
