@@ -169,13 +169,13 @@ def main(today_str=None):
     print("\nLicenses inside renewal notice window")
     for lid, src, prod, ren, notice, auto in renewal_alerts(today, licenses):
         if auto == "no":
-            print(f"  {lid} {prod:<16} ends {ren}, no auto-renew: renewal should have started by {notice}")
+            print(f"  {lid} {prod:<22} ends {ren}, no auto-renew: renewal should have started by {notice}")
         else:
-            print(f"  {lid} {prod:<16} auto-renews {ren}: last day to give notice was {notice}")
+            print(f"  {lid} {prod:<22} auto-renews {ren}: last day to give notice was {notice}")
 
     print("\nPartner authorization issues")
     for name, exp, feeds, status in partner_alerts(today, partners):
-        print(f"  {name:<13} feeds={feeds:<14} {status}")
+        print(f"  {name:<17} feeds={feeds:<14} {status}")
 
     report = usage_report(ents, prev.year, prev.month)
     OUT.mkdir(exist_ok=True)
