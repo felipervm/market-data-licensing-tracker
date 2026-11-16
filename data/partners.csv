@@ -1,5 +1,5 @@
 partner,feeds_enabled,authorization_expires
-Broker Alpha,UTP;CTA;OPRA,2027-04-30
-Broker Beta,UTP;CTA,2026-11-10
-Wealth Gamma,CTA;Cboe,2026-12-05
-Crypto Delta,UTP,2027-02-28
+Example Broker A,UTP;CTA;OPRA,2027-04-30
+Example Broker B,UTP;CTA,2026-11-10
+Example Broker C,CTA;Cboe,2026-12-05
+Example Broker D,UTP,2027-02-28
